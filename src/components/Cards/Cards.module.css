@@ -11,13 +11,13 @@
 .infected{
     border: 1px solid rgba(0, 0, 255,0.8);
 }
-.infected h4{
+.infected h4:nth-child(1){
     color: rgba(0, 0, 255,0.8) !important;
 }
 .recovered{
     border: 1px solid rgba(0, 255, 0,0.5);
 }
-.recovered h4{
+.recovered h4:nth-child(1){
     color: #4caf50
 
     !important;
@@ -26,7 +26,7 @@
     border: 1px solid rgba(255, 0, 0,0.6);
 }
 
-@media (max-width : 770px){
+@media (max-width : 1279px){
     .card{
         margin: 2% 0 !important;        
     }

@@ -14,15 +14,15 @@ const Cards = ({data:{confirmed,recovered,deaths,lastUpdate}}) => {
     }
     return(
         <div className={styles.container}>
-            <Grid container spacing={2} justify="center">
+            <Grid container spacing={2} justify="space-evenly">
 
                 {/* عدد المصابين */}
                 <Grid item
-                md={12} lg={3}
+                xs={12} lg={3}
                 className={cx(styles.card,styles.infected)}>
                     <CardContent>
                         <Typography variant="h4" color="primary" gutterBottom>المصابين</Typography>
-                        <Typography variant="h3" gutterBottom>
+                        <Typography variant="h4" gutterBottom>
                             <CountUp start={0}
                             end={confirmed.value}
                             duration={2}
@@ -30,17 +30,17 @@ const Cards = ({data:{confirmed,recovered,deaths,lastUpdate}}) => {
                         </Typography>
     <Typography variant="caption" color="textSecondary">{`تحديث : ${dateHelper(lastUpdate)}`}</Typography>
                     </CardContent>
-                </Grid>  
+                </Grid>
                 
                 
                 {/* عدد المتعافين */}
                 
                 <Grid item
-                md={12} lg={3}
+                xs={12} lg={3}
                 className={cx(styles.card,styles.recovered)}>
                     <CardContent>
                         <Typography variant="h4" gutterBottom>المتعافين</Typography>
-                        <Typography variant="h3" gutterBottom>
+                        <Typography variant="h4" gutterBottom>
                             <CountUp start={0}
                             end={recovered.value}
                             duration={2}
@@ -49,16 +49,14 @@ const Cards = ({data:{confirmed,recovered,deaths,lastUpdate}}) => {
     <Typography variant="caption" color="textSecondary">{`تحديث : ${dateHelper(lastUpdate)}`}</Typography>
                     </CardContent>
                 </Grid>   
-                
-                
                 {/* عدد المتوفين */}    
                 
                 <Grid item
-                md={12} lg={3}
+                xs={12} lg={3}
                 className={cx(styles.card,styles.deaths)}>
                     <CardContent>
                         <Typography variant="h4" color="secondary" gutterBottom>المتوفين</Typography>
-                        <Typography variant="h3" gutterBottom>
+                        <Typography variant="h4" gutterBottom>
                             <CountUp start={0}
                             end={deaths.value}
                             duration={2}
