@@ -1,0 +1,33 @@
+.container{
+    margin:50px 0px;
+    width: 70%;
+}
+
+.card{    
+    text-align: center; 
+    margin: 0 2% !important;
+}
+
+.infected{
+    border: 1px solid rgba(0, 0, 255,0.8);
+}
+.infected h4{
+    color: rgba(0, 0, 255,0.8) !important;
+}
+.recovered{
+    border: 1px solid rgba(0, 255, 0,0.5);
+}
+.recovered h4{
+    color: #4caf50
+
+    !important;
+}
+.deaths{
+    border: 1px solid rgba(255, 0, 0,0.6);
+}
+
+@media (max-width : 770px){
+    .card{
+        margin: 2% 0 !important;        
+    }
+}
