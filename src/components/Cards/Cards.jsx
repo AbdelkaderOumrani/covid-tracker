@@ -4,12 +4,12 @@ import CountUp from 'react-countup';
 import cx from 'classnames';
 
 
-import {dateHelper} from './dateHelper';
+import {dateHelper} from '../../Helpers/dateHelper';
 
 import styles from './Cards.module.css';
 
 const Cards = ({data:{confirmed,recovered,deaths,lastUpdate}}) => {
-    if(!confirmed){
+    if(confirmed === undefined){
         return(<CircularProgress />)
     }
     return(

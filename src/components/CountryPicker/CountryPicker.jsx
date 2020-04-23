@@ -11,15 +11,20 @@ const CountryPicker = ({ handleCountryChange }) => {
     useEffect(() => {
         const fetchAPI = async() =>{
             setFetchedCountries(await fetchCountries());
-        }
+        }   
         fetchAPI();
     }, [setFetchedCountries]);
+    
     return(
         <FormControl className={styles.formControl}>
-            <NativeSelect defaultValue="" onChange={(e) => handleCountryChange(e.target.value)}>
-                <option value="">عالميا</option>
-                {fetchedCountries.map((country,i) => 
-                <option key={i} value={country}>{country}</option>)}
+            <NativeSelect onChange={(e) => {
+                let label = e.target.options[e.target.selectedIndex].label;
+                handleCountryChange(e.target.value,label);
+                console.log();
+            }}>
+                <option label="عالميا" value=""/>
+                {fetchedCountries.map((country,i) =>
+                <option key={i} label={country.arName ? country.arName : country.enName} value={country.enName}/>)}
             </NativeSelect>
         </FormControl>
     )

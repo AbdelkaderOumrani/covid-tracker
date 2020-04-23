@@ -11,7 +11,10 @@ import logo from '../src/images/logo.png';
 class App extends Component {
     state = {
         data:{},
-        country: '',
+        country: {
+            enName:"",
+            arName:"عالميا",
+        },
     }
 
     async componentDidMount(){
@@ -20,9 +23,9 @@ class App extends Component {
 
     }
 
-    handleCountryChange = async (country) => {
-        const fetchedData = await fetchData(country);
-        this.setState({data: fetchedData,country});
+    handleCountryChange = async (enName,arName) => {
+        const fetchedData = await fetchData(enName);        
+        this.setState({data: fetchedData,country:{enName,arName}});
     }
 
     render() {

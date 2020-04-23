@@ -85,7 +85,7 @@ const Chart = ({data:{confirmed,recovered,deaths},country}) => {
 
             options = {{
                 legend: {display: false},
-                title: {display:true, text:`الاحصائية الحالية - ${country}`},                
+                title: {display:true, text:`الاحصائية الحالية - ${country.arName}`},                
             }}
             />
         ) : null
@@ -94,7 +94,7 @@ const Chart = ({data:{confirmed,recovered,deaths},country}) => {
     return(
         <div className={styles.container}>
             {
-                country ? barChart : lineChart
+                country.enName ? barChart : lineChart
             }
         </div>
     )
