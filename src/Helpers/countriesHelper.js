@@ -21,7 +21,7 @@ export const countriesHelper = [
   },
   {
     enName: "Antigua and Barbuda",
-    arName: "",
+    arName: "أنتيغوا وباربودا",
   },
   {
     enName: "Argentina",
@@ -45,7 +45,7 @@ export const countriesHelper = [
   },
   {
     enName: "Bahamas",
-    arName: "الباهاماس",
+    arName: "البهاماس",
   },
   {
     enName: "Bahrain",
@@ -57,7 +57,7 @@ export const countriesHelper = [
   },
   {
     enName: "Barbados",
-    arName: "",
+    arName: "باربادوس",
   },
   {
     enName: "Belarus",
@@ -69,7 +69,7 @@ export const countriesHelper = [
   },
   {
     enName: "Belize",
-    arName: "",
+    arName: "بليز",
   },
   {
     enName: "Benin",
@@ -77,7 +77,7 @@ export const countriesHelper = [
   },
   {
     enName: "Bhutan",
-    arName: "",
+    arName: "بوتان",
   },
   {
     enName: "Bolivia",
@@ -117,11 +117,11 @@ export const countriesHelper = [
   },
   {
     enName: "Cabo Verde",
-    arName: "",
+    arName: "الرأس الأخضر",
   },
   {
     enName: "Cambodia",
-    arName: "",
+    arName: "كمبوديا",
   },
   {
     enName: "Cameroon",
@@ -153,15 +153,15 @@ export const countriesHelper = [
   },
   {
     enName: "Congo (Brazzaville)",
-    arName: "",
+    arName: "جمهورية الكونجو - (برازافيل)",
   },
   {
     enName: "Congo (Kinshasa)",
-    arName: "",
+    arName: "الكونغو-كينشاسا",
   },
   {
     enName: "Costa Rica",
-    arName: "",
+    arName: "كوستاريكا",
   },
   {
     enName: "Cote d'Ivoire",
@@ -180,7 +180,7 @@ export const countriesHelper = [
     arName: "قبرص",
   },
   {
-    enName: "Czechia",
+    enName: "التشيك",
     arName: "",
   },
   {
@@ -188,24 +188,20 @@ export const countriesHelper = [
     arName: "الدنمارك",
   },
   {
-    enName: "Diamond Princess",
-    arName: "",
-  },
-  {
     enName: "Djibouti",
     arName: "جيبوتي",
   },
   {
     enName: "Dominica",
-    arName: "",
+    arName: "دومينيكا",
   },
   {
     enName: "Dominican Republic",
-    arName: "",
+    arName: "جمهورية الدومينيكان",
   },
   {
     enName: "Ecuador",
-    arName: "",
+    arName: "الإكوادور",
   },
   {
     enName: "Egypt",
@@ -217,15 +213,15 @@ export const countriesHelper = [
   },
   {
     enName: "Equatorial Guinea",
-    arName: "",
+    arName: "غينيا الاستوائية",
   },
   {
     enName: "Eritrea",
-    arName: "",
+    arName: "إريتريا",
   },
   {
     enName: "Estonia",
-    arName: "",
+    arName: "إستونيا",
   },
   {
     enName: "Eswatini",
@@ -233,7 +229,7 @@ export const countriesHelper = [
   },
   {
     enName: "Ethiopia",
-    arName: "",
+    arName: "إثيوبيا",
   },
   {
     enName: "Fiji",
@@ -277,7 +273,7 @@ export const countriesHelper = [
   },
   {
     enName: "Guatemala",
-    arName: "",
+    arName: "غواتيمالا",
   },
   {
     enName: "Guinea",
@@ -293,7 +289,7 @@ export const countriesHelper = [
   },
   {
     enName: "Haiti",
-    arName: "",
+    arName: "هايتي",
   },
   {
     enName: "Holy See",
@@ -301,15 +297,15 @@ export const countriesHelper = [
   },
   {
     enName: "Honduras",
-    arName: "",
+    arName: "الهندوراس",
   },
   {
     enName: "Hungary",
-    arName: "",
+    arName: "المجر",
   },
   {
     enName: "Iceland",
-    arName: "",
+    arName: "آيسلندا",
   },
   {
     enName: "India",
@@ -317,11 +313,11 @@ export const countriesHelper = [
   },
   {
     enName: "Indonesia",
-    arName: "",
+    arName: "إندونيسيا",
   },
   {
     enName: "Iran",
-    arName: "",
+    arName: "إيران",
   },
   {
     enName: "Iraq",
@@ -329,7 +325,7 @@ export const countriesHelper = [
   },
   {
     enName: "Ireland",
-    arName: "",
+    arName: "أيرلندا",
   },
   {
     enName: "Israel",
@@ -353,7 +349,7 @@ export const countriesHelper = [
   },
   {
     enName: "Kazakhstan",
-    arName: "",
+    arName: "كازاخستان",
   },
   {
     enName: "Kenya",
@@ -361,27 +357,27 @@ export const countriesHelper = [
   },
   {
     enName: "Korea, South",
-    arName: "",
+    arName: "كوريا الجنوبية",
   },
   {
     enName: "Kosovo",
-    arName: "",
+    arName: "كوسوفو",
   },
   {
     enName: "Kuwait",
-    arName: "",
+    arName: "الكويت",
   },
   {
     enName: "Kyrgyzstan",
-    arName: "",
+    arName: "قيرغيزستان",
   },
   {
     enName: "Laos",
-    arName: "",
+    arName: "لاوس",
   },
   {
     enName: "Latvia",
-    arName: "",
+    arName: "لاتفيا",
   },
   {
     enName: "Lebanon",
@@ -397,19 +393,15 @@ export const countriesHelper = [
   },
   {
     enName: "Liechtenstein",
-    arName: "",
+    arName: "ليشتنشتاين",
   },
   {
     enName: "Lithuania",
-    arName: "",
+    arName: "ليتوانيا",
   },
   {
     enName: "Luxembourg",
-    arName: "",
-  },
-  {
-    enName: "MS Zaandam",
-    arName: "",
+    arName: "لوكسمبورغ",
   },
   {
     enName: "Madagascar",
@@ -441,7 +433,7 @@ export const countriesHelper = [
   },
   {
     enName: "Mauritius",
-    arName: "",
+    arName: "موريشيوس",
   },
   {
     enName: "Mexico",
@@ -457,7 +449,7 @@ export const countriesHelper = [
   },
   {
     enName: "Mongolia",
-    arName: "",
+    arName: "منغوليا",
   },
   {
     enName: "Montenegro",
@@ -485,11 +477,11 @@ export const countriesHelper = [
   },
   {
     enName: "New Zealand",
-    arName: "",
+    arName: "نيوزيلندا",
   },
   {
     enName: "Nicaragua",
-    arName: "",
+    arName: "نيكاراغوا",
   },
   {
     enName: "Niger",
@@ -561,27 +553,27 @@ export const countriesHelper = [
   },
   {
     enName: "Saint Kitts and Nevis",
-    arName: "",
+    arName: "سانت كيتس ونيفيس",
   },
   {
     enName: "Saint Lucia",
-    arName: "",
+    arName: "سانت لوسيا",
   },
   {
     enName: "Saint Vincent and the Grenadines",
-    arName: "",
+    arName: "سانت فينسنت والغرينادين",
   },
   {
     enName: "San Marino",
     arName: "سان مارينو",
   },
   {
-    enName: "Sao Tome and Principe",
+    enName: "ساو تومي وبرينسيب",
     arName: "",
   },
   {
     enName: "Saudi Arabia",
-    arName: "",
+    arName: "السعودية",
   },
   {
     enName: "Senegal",
@@ -597,7 +589,7 @@ export const countriesHelper = [
   },
   {
     enName: "Sierra Leone",
-    arName: "",
+    arName: "سيراليون",
   },
   {
     enName: "Singapore",
@@ -625,10 +617,10 @@ export const countriesHelper = [
   },
   {
     enName: "Spain",
-    arName: "",
+    arName: "إسبانيا",
   },
   {
-    enName: "Sri Lanka",
+    enName: "سريلانكا",
     arName: "",
   },
   {
@@ -637,7 +629,7 @@ export const countriesHelper = [
   },
   {
     enName: "Suriname",
-    arName: "",
+    arName: "سورينام",
   },
   {
     enName: "Sweden",
@@ -653,7 +645,7 @@ export const countriesHelper = [
   },
   {
     enName: "Taiwan*",
-    arName: "",
+    arName: "تايوان",
   },
   {
     enName: "Tanzania",
@@ -661,10 +653,10 @@ export const countriesHelper = [
   },
   {
     enName: "Thailand",
-    arName: "",
+    arName: "تايلاند",
   },
   {
-    enName: "Timor-Leste",
+    enName: "تيمور الشرقية",
     arName: "",
   },
   {
@@ -673,7 +665,7 @@ export const countriesHelper = [
   },
   {
     enName: "Trinidad and Tobago",
-    arName: "",
+    arName: "ترينيداد وتوباغو",
   },
   {
     enName: "Tunisia",
@@ -705,15 +697,15 @@ export const countriesHelper = [
   },
   {
     enName: "Uruguay",
-    arName: "",
+    arName: "الأوروغواي ",
   },
   {
     enName: "Uzbekistan",
-    arName: "",
+    arName: "أوزبكستان",
   },
   {
     enName: "Venezuela",
-    arName: "",
+    arName: "فنزويلا",
   },
   {
     enName: "Vietnam",
@@ -721,7 +713,7 @@ export const countriesHelper = [
   },
   {
     enName: "West Bank and Gaza",
-    arName: "",
+    arName: "فلسطين",
   },
   {
     enName: "Western Sahara",
@@ -738,5 +730,13 @@ export const countriesHelper = [
   {
     enName: "Zimbabwe",
     arName: "زيمبابوي",
+  },
+  {
+    enName: "Diamond Princess",
+    arName: "سفينة أميرة الألماس",
+  },
+  {
+    enName: "MS Zaandam",
+    arName: "سفينة إم إس زاندام",
   },
 ];
