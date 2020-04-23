@@ -49,7 +49,6 @@ export const fetchDailyData = async () =>{
 
 export const fetchCountries = async () => {
     try {
-        console.log(countriesHelper[0].enName);
         return countriesHelper;        
     } catch (error) {
         console.log(error);
