@@ -568,8 +568,8 @@ export const countriesHelper = [
     arName: "سان مارينو",
   },
   {
-    enName: "ساو تومي وبرينسيب",
-    arName: "",
+    enName: "Sao Tome and Principe",
+    arName: "ساو تومي وبرينسيب",
   },
   {
     enName: "Saudi Arabia",
@@ -620,8 +620,8 @@ export const countriesHelper = [
     arName: "إسبانيا",
   },
   {
-    enName: "سريلانكا",
-    arName: "",
+    enName: "Sri Lanka",
+    arName: "سريلانكا",
   },
   {
     enName: "Sudan",
