@@ -5,14 +5,13 @@ import { Line, Bar } from 'react-chartjs-2';
 import styles from './Chart.module.css';
 
 
-const Chart = ({data:{confirmed,recovered,deaths},country}) => {
+const Chart = ({lang, data:{confirmed,recovered,deaths},country}) => {
     const [dailyData,setDailyData] = useState([]);
 
     useEffect(() => {
         const fetchAPI = async () => {
             setDailyData(await fetchDailyData());     
         }
-
         fetchAPI();
 
     },[]);
@@ -25,7 +24,7 @@ const Chart = ({data:{confirmed,recovered,deaths},country}) => {
             labels: dailyData.map(({date}) => date),
             datasets:[{
                 data:dailyData.map(({deaths}) => deaths),
-                label:'الوفيات',
+                label:lang.deaths,
                 borderColor:'#f44336',
                 fill: false,
                 lineTension: 0.1,
@@ -46,7 +45,7 @@ const Chart = ({data:{confirmed,recovered,deaths},country}) => {
                 
             },{
                 data:dailyData.map(({confirmed}) => confirmed),
-                label:'الاصابات',
+                label:lang.cases,
                 fill: false,
                 lineTension: 0.1,
                 backgroundColor: 'rgba(75,192,192,0.4)',

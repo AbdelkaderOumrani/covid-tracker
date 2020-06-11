@@ -5,7 +5,7 @@ import {fetchCountries} from '../../api';
 
 import styles from './CountryPicker.module.css';
 
-const CountryPicker = ({ handleCountryChange }) => {
+const CountryPicker = ({lang, handleCountryChange }) => {
     const [fetchedCountries,setFetchedCountries] = useState([]);
 
     useEffect(() => {
@@ -22,9 +22,9 @@ const CountryPicker = ({ handleCountryChange }) => {
                 handleCountryChange(e.target.value,label);
                 console.log();
             }}>
-                <option label="عالميا" value=""/>
+                <option label={lang.code === "ar" ? "عالميا" : "Global"} value=""/>
                 {fetchedCountries.map((country,i) =>
-                <option key={i} label={country.arName ? country.arName : country.enName} value={country.enName}/>)}
+                <option key={i} label={lang.code === "ar" ? country.arName : country.enName} value={country.enName}/>)}
             </NativeSelect>
         </FormControl>
     )
